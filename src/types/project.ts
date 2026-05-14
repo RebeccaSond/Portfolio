@@ -6,9 +6,11 @@ export interface Project {
     id: number;
     title: string;
     date: string;
-    image: string;
+    image?: string;
     year: number;
     link?: string;
     repo?: string;
     video?: string
+    thumbnail?: string;
+    source?: "youtube" | "gif" | "local";
 }

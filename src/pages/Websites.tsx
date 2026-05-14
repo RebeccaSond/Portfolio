@@ -167,7 +167,7 @@ export default function Websites() {
                     )}
 
                     {selectedProject.title === "BiteZone - Team Project" && (
-                        <div className="special-message">
+                        <div className="specialMessage">
                             <p className="BiteZone">
                                 ⚠️ In order to see the website function properly, use username "test@aol.com" and password "123456" upon logging in.
                             </p>

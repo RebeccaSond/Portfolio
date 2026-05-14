@@ -35,8 +35,6 @@ function Animations() {
         title: "Able ▷",
         date: "3/4/2025",
         year: 2025,
-        image:
-          "/gallery/images/Able.png",
         video: "https://www.youtube.com/embed/r63CofmzNfM?autoplay=1",
       },
       {
@@ -44,8 +42,6 @@ function Animations() {
         title: "Solo ▷",
         date: "2/23/2019",
         year: 2019,
-        image:
-          "/gallery/images/solo.png",
         video: "https://www.youtube.com/embed/pPYeTF_EBD4?autoplay=1",
       },
       {
@@ -53,8 +49,6 @@ function Animations() {
         title: "Panic Room ▷",
         date: "6/18/2019",
         year: 2019,
-        image:
-          "/gallery/images/PanicRoom.png",
         video: "https://www.youtube.com/embed/NTFlxQN9Vmk?autoplay=1",
       },
       {
@@ -62,8 +56,6 @@ function Animations() {
         title: "Silk ▷",
         date: "3/1/2019",
         year: 2019,
-        image:
-          "/gallery/images/silk.png",
         video: "https://www.youtube.com/embed/QTx7S0PWwKQ?autoplay=1",
       },
       {
@@ -71,8 +63,6 @@ function Animations() {
         title: "Silence ▷",
         date: "8/1/2019",
         year: 2019,
-        image:
-          "/gallery/images/silence.png",
         video: "https://www.youtube.com/embed/_m3k4zr8_jE?autoplay=1",
       },
       {
@@ -80,8 +70,6 @@ function Animations() {
         title: "Hotline ▷",
         date: "8/7/2019",
         year: 2019,
-        image:
-          "/gallery/images/hotline.png",
         video: "https://www.youtube.com/embed/PojL9wKXRHE?autoplay=1",
       },
       {
@@ -89,8 +77,6 @@ function Animations() {
         title: "Necromancer ▷",
         date: "9/2/2025",
         year: 2025,
-        image:
-          "/gallery/images/necromancer.png",
         video: "https://www.youtube.com/embed/_w55GYEJ_i4?autoplay=1",
       },
       {
@@ -98,8 +84,6 @@ function Animations() {
         title: "In My Mind ▷",
         date: "9/23/2022",
         year: 2022,
-        image:
-          "/gallery/images/InMyMind.png",
         video: "https://www.youtube.com/embed/zi4TaVPnec0?autoplay=1",
       },
       {
@@ -152,8 +136,6 @@ function Animations() {
         title: "Say My Name ▷",
         date: "9/13/2023",
         year: 2023,
-        image:
-          "/gallery/images/SayMyName.png",
         video: "https://www.youtube.com/embed/UnnakEePNYo?autoplay=1",
       },
       {
@@ -179,8 +161,6 @@ function Animations() {
         title: "In My Desolate Room ▷",
         date: "3/27/2026",
         year: 2026,
-        image:
-          "/gallery/images/InMyDesolateRoom.png",
         video: "https://www.youtube.com/embed/sWqwyFuYzpc?autoplay=1",
       },
     ];
@@ -235,8 +215,7 @@ function Animations() {
             />
           ) : (
             <iframe
-              width="800"
-              height="450"
+              className="videoPlayer"
               src={selectedProject.video}
               title={selectedProject.title}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
